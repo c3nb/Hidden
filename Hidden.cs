@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Reflection.Utils;
-using System.Reflection.Extensions;
+using System.Reflection.Utils; //https://github.com/c3nb/Reflection
+using System.Reflection.Extensions; //https://github.com/c3nb/Reflection
 using System.Runtime.CompilerServices;
 
 [AttributeUsage(AttributeTargets.All ^ (AttributeTargets.Assembly | AttributeTargets.Module | AttributeTargets.Parameter | AttributeTargets.GenericParameter | AttributeTargets.ReturnValue), Inherited = false)]
